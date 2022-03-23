@@ -1,0 +1,15 @@
+$text: black;
+
+.container {
+  color: $text;
+  width: 80vw;
+  margin: 1rem auto;
+}
+
+@media (max-width: 900px) {
+  .container {
+    color: $text;
+    width: 98vw;
+    margin: 1rem auto;
+  }
+}
