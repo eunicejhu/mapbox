@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "K2D";
+  src: url("/fonts/K2D/K2D-Regular.ttf");
+}
+
+@font-face {
+  font-family: "K2D Bold";
+  src: url("/fonts/K2D/K2D-Bold.ttf");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: K2D, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.4;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: rgb(102, 187, 255);
+  text-decoration: none;
+  font-family: "K2D Bold", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+:not(pre) > code {
+  font-style: italic;
+  background-color: rgba(102, 187, 255, 0.4);
+}
+
+pre {
+  background-color: rgba(102, 187, 255, 0.4);
+  border-radius: 4px;
+  padding: 10px;
+  word-wrap: break-word;
+}
